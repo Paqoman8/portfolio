@@ -24,13 +24,17 @@ export const HeroSection = () => {
 
                 {/* Main Headline */}
                 <h1 className="font-display text-5xl font-bold tracking-tight text-text-high sm:text-6xl md:text-7xl">
-                    Building <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-500">Scalable SaaS</span> <br className="hidden md:block" />
-                    & Robust Architectures.
+                    {/* Building <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-500">Scalable SaaS</span> <br className="hidden md:block" /> */}
+                    Building Scalable
+                    <br className="hidden md:block" />
+                    <span className="text-transparent bg-clip-text bg-linear-to-r from-indigo-400 to-cyan-500">Digital Products</span> <br className="hidden md:block" />
+                    & Future-Ready Architectures.
                 </h1>
 
                 {/* Subheadline */}
                 <p className="mx-auto max-w-2xl text-lg text-text-low md:text-xl leading-relaxed">
-                    Senior Full Stack Engineer. I bridge the gap between complex backend logic and fluid frontend experiences. Specialized in Next.js, NestJS, and Cloud Native solutions.
+                    {/* Senior Full Stack Engineer. I bridge the gap between complex backend logic and fluid frontend experiences. Specialized in Next.js, NestJS, and Cloud Native solutions. */}
+                    Full Stack Engineer specializing in complex web and mobile ecosystems. I design and build high-performance SaaS platforms, robust APIs, and modern interfaces using Next.js, NestJS, Node, and React Native.
                 </p>
 
                 {/* CTA Group */}

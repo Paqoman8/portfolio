@@ -8,28 +8,28 @@ const expertises = [
         icon: ServerCog,
     },
     {
-        title: "Modern Full Stack",
-        description: "Maîtrise TypeScript de bout en bout. SSR avec Next.js, logique métier avec NestJS.",
+        title: "Modern Full Stack (Next.js / NestJS)",
+        description: "Développement d’applications web modernes avec Next.js (SSR/ISR) et NestJS. Écosystème TypeScript maîtrisé de bout en bout, du backend aux interfaces.",
         icon: Layers,
     },
     {
-        title: "SaaS & Dashboards",
-        description: "Interfaces B2B riches. Gestion d'états complexes et visualisation de données temps réel.",
+        title: "SaaS Platforms & Dashboards",
+        description: "Création de plateformes SaaS complexes, dashboards interactifs et interfaces orientées données. Gestion d’états avancés et UX professionnelle.",
         icon: LayoutDashboard,
     },
     {
         title: "Security & Identity",
-        description: "Auth sécurisée (OAuth2, JWT), RBAC/ABAC et protection des données sensibles.",
+        description: "Implémentation d’authentification sécurisée (OAuth2, JWT), gestion des rôles, validation stricte des données et respect des bonnes pratiques OWASP.",
         icon: ShieldCheck,
     },
     {
         title: "Mobile (React Native)",
-        description: "Applications natives performantes partageant la logique métier avec le web.",
+        description: "Développement d’applications mobiles performantes et cross-platform, partageant la logique métier avec le web.",
         icon: Smartphone,
     },
     {
         title: "Performance Engineering",
-        description: "Optimisation Core Web Vitals, caching Redis et requêtes DB.",
+        description: "Optimisation des Core Web Vitals, réduction du bundle, caching avancé, et amélioration continue des performances backend et frontend.",
         icon: Zap,
     },
 ];
