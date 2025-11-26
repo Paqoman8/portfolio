@@ -18,8 +18,11 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Senior Full Stack Engineer & Product Architect",
-  description: "Portfolio of a Senior Full Stack Engineer specialized in React, Next.js, and NestJS.",
+  icons: {
+    icon: '/logo.svg',
+  },
+  title: "HOUINSAVI G. Joël | Senior Full Stack Engineer & Product Architect",
+  description: "Senior Full Stack Engineer & Product Architect specialized in React, Next.js, and NestJS.",
 };
 
 export default function RootLayout({
