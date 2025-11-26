@@ -2,7 +2,20 @@ import React from 'react';
 import { Github, ExternalLink, ArrowUpRight, CheckCircle2 } from 'lucide-react';
 import Image from 'next/image';
 
-const projects = [
+interface Project {
+    title: string;
+    category: string;
+    description: string;
+    stack: string[];
+    points: string[];
+    image: string;
+    links?: {
+        demo?: string;
+        github?: string;
+    };
+}
+
+const projects: Project[] = [
     {
         title: "Nucleus (Projet académique Epitech)",
         category: "Full Stack Dashboard Platform",
