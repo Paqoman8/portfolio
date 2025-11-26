@@ -8,8 +8,8 @@
 // export default nextConfig;
 
 
+const repo = "portfolio"; // nom EXACT du repo GitHub
 const isProd = process.env.NODE_ENV === "production";
-const repo = "portfolio"; // ton nom de repo GitHub
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
