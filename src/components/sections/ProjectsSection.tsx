@@ -21,11 +21,57 @@ const projects = [
             "Gestion des widgets"
         ],
         image: "/images/nucleus.png",
+        // links: {
+        //     demo: "#",
+        //     github: "#"
+        // }
+    },
+    {
+        title: "Cinémania (Projet académique Epitech)",
+        category: "Film Rating Platform",
+        description: "Plateforme moderne inspirée de Rotten Tomatoes avec notation, fiches films et système utilisateur.",
+        stack: [
+            "Next.js",
+            "MongoDB",
+            "TailwindCSS"
+        ],
+        points: [
+            "Next.js 13+ (App Router) + MongoDB",
+            "Auth sécurisée + JWT",
+            "Système de rating et reviews",
+            "Fiches films avec Synopsis, Acteurs, Réalisateur, etc.",
+            "Notation et commentaires",
+            "Gestion des utilisateurs"
+        ],
+        image: "/images/cinemania.png",
         links: {
-            demo: "#",
-            github: "#"
+            demo: "https://deep-sigma.vercel.app/",
+            // github: "#"
         }
-    }
+    },
+    {
+        title: "Paqo.net (Projet personnel)",
+        category: "Personal Platform (Blog • E-commerce • Portfolio)",
+        description: "Plateforme web 100% native combinant blog, boutique et portfolio. Développée en HTML, CSS, JS et PHP, avec une architecture backend sur mesure.",
+        stack: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "SQL"
+        ],
+        points: [
+            "Développement full stack sans framework",
+            "Système de blog complet + administration",
+            "Mini e-commerce pour produits numériques",
+            "SEO optimisé & performances élevées"
+        ],
+        image: "/images/paqo.png",
+        links: {
+            demo: "https://www.paqo.net",
+            // github: "#"
+        }
+    },
 ];
 
 export const ProjectsSection = () => {
@@ -43,10 +89,10 @@ export const ProjectsSection = () => {
                             A showcase of complex problems solved with elegant engineering.
                         </p>
                     </div>
-                    <a href="#" className="group inline-flex items-center gap-2 text-indigo-400 transition-colors hover:text-indigo-300">
+                    {/* <a href="#" className="group inline-flex items-center gap-2 text-indigo-400 transition-colors hover:text-indigo-300">
                         <span>View all projects</span>
                         <ArrowUpRight className="h-4 w-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
-                    </a>
+                    </a> */}
                 </div>
 
                 {/* Projects Grid */}

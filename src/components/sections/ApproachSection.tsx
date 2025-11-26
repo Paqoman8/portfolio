@@ -4,25 +4,25 @@ import { GitMerge, Shield, Terminal, Users } from 'lucide-react';
 const methods = [
     {
         title: "Architecture First",
-        description: "I don't just write code; I design systems. Scalability and maintainability are baked in from day one, not added as an afterthought.",
+        description: "Je conçois des systèmes avant d’écrire la moindre ligne de code. Mes architectures sont pensées pour la durabilité, la scalabilité et la maintenance à long terme.",
         icon: GitMerge,
         tags: ["System Design", "Microservices", "Scalability"]
     },
     {
         title: "Uncompromising Quality",
-        description: "Reliability is non-negotiable. Comprehensive testing strategies and strict type safety ensure that deployments are boring and predictable.",
+        description: "TypeScript strict, tests, CI/CD, normes de code : la qualité est un prérequis. Un code prévisible limite les bugs et accélère le développement.",
         icon: Terminal,
         tags: ["TypeScript", "TDD/BDD", "CI/CD Pipelines"]
     },
     {
         title: "Security & Performance",
-        description: "Fast by default, secure by design. I implement robust authentication, data validation, and performance optimizations at every layer.",
+        description: "Mise en place d’auth sécurisée, validation des données et respect des pratiques OWASP. Optimisations front & back pour atteindre les meilleures performances.",
         icon: Shield,
         tags: ["OWASP", "OAuth2", "Core Web Vitals"]
     },
     {
         title: "Product-Centric",
-        description: "Technical excellence serves the user experience. I prioritize pragmatic UX, accessibility, and clear documentation.",
+        description: "Chaque décision technique sert l’expérience utilisateur. J’intègre l’UX, l’accessibilité et la lisibilité du code comme des priorités.",
         icon: Users,
         tags: ["A11y", "Documentation", "UX Engineering"]
     }
