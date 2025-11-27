@@ -14,7 +14,8 @@ export const Header = () => {
                 <div className="flex items-center gap-2">
                     <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-indigo-500 to-cyan-500" />
                     {/* <Image width={32} height={32} src="logo.svg" alt="" /> */}
-                    <span className="text-lg font-bold font-display tracking-tight text-white">HOUINSAVI G. Joël</span>
+                    <span className="md:hidden text-lg font-bold font-display tracking-tight text-white">H. Joël</span>
+                    <span className="hidden md:block text-lg font-bold font-display tracking-tight text-white">HOUINSAVI G. Joël</span>
                 </div>
 
                 <nav className="hidden md:flex items-center gap-8">

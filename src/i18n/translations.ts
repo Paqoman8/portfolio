@@ -131,11 +131,11 @@ export const translations = {
             contact: "Contact",
         },
         hero: {
-            availability: "Disponible pour de nouvelles opportunités",
+            availability: "Ouvert aux nouvelles opportunités",
             title_prefix: "Création de",
             title_highlight: "Produits Digitaux",
             title_suffix: "& Architectures Scalables.",
-            description: "Ingénieur Full Stack spécialisé dans les écosystèmes web et mobiles complexes. Je conçois et développe des plateformes SaaS performantes, des APIs robustes et des interfaces modernes avec Next.js, NestJS, Node et React Native.",
+            description: "Développeur Full Stack spécialisé dans les écosystèmes web et mobiles complexes. Je conçois et développe des plateformes SaaS performantes, des APIs robustes et des interfaces modernes en utilisant les stacks les plus adaptées à chaque projet.",
             view_work: "Voir mes projets",
             contact_me: "Me contacter",
         },
