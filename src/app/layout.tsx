@@ -19,7 +19,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   icons: {
-    icon: '/logo.svg',
+    icon: 'logo.svg',
   },
   title: "HOUINSAVI G. Joël | Senior Full Stack Engineer",
   description: "Senior Full Stack Engineer & Product Architect specialized in React, Next.js, and NestJS.",

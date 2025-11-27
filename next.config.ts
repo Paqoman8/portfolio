@@ -12,20 +12,10 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  trailingSlash: true,
+  env: {
+    NEXT_PUBLIC_BASE_PATH: isProd ? `/${repo}` : "",
+  }
 };
 
 export default nextConfig;
-
-
-
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   output: "export",
-//   basePath: isProd ? `/${repo}` : "",
-//   assetPrefix: isProd ? `/${repo}/` : "",
-//   images: {
-//     unoptimized: true,
-//   },
-// };
-
-// module.exports = nextConfig;

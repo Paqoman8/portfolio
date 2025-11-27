@@ -33,7 +33,7 @@ const projects: Project[] = [
             "UI modulaire et personnalisable",
             "Gestion des widgets"
         ],
-        image: "/images/nucleus.png",
+        image: "images/nucleus.png",
         // links: {
         //     demo: "#",
         //     github: "#"
@@ -56,7 +56,7 @@ const projects: Project[] = [
             "Notation et commentaires",
             "Gestion des utilisateurs"
         ],
-        image: "/images/cinemania.png",
+        image: "images/cinemania.png",
         links: {
             demo: "https://deep-sigma.vercel.app/",
             // github: "#"
@@ -79,7 +79,7 @@ const projects: Project[] = [
             "Mini e-commerce pour produits numériques",
             "SEO optimisé & performances élevées"
         ],
-        image: "/images/paqo.png",
+        image: "images/paqo.png",
         links: {
             demo: "https://www.paqo.net",
             // github: "#"
