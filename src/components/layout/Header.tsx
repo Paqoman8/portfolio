@@ -4,6 +4,7 @@ import Image from 'next/image';
 import React from 'react';
 import { LanguageSwitcher } from '../LanguageSwitcher';
 import { useTranslation } from '@/hooks/useTranslation';
+import Link from 'next/link';
 
 export const Header = () => {
     const { t } = useTranslation();
@@ -11,12 +12,12 @@ export const Header = () => {
     return (
         <header className="fixed top-0 left-0 right-0 z-50 border-b border-white/5 bg-void/80 backdrop-blur-md">
             <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-                <div className="flex items-center gap-2">
+                <Link href="/" className="flex items-center gap-2">
                     <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-indigo-500 to-cyan-500" />
                     {/* <Image width={32} height={32} src="logo.svg" alt="" /> */}
                     <span className="md:hidden text-lg font-bold font-display tracking-tight text-white">H. Joël</span>
                     <span className="hidden md:block text-lg font-bold font-display tracking-tight text-white">HOUINSAVI G. Joël</span>
-                </div>
+                </Link>
 
                 <nav className="hidden md:flex items-center gap-8">
                     <a href="#expertise" className="text-sm font-medium text-zinc-400 hover:text-white transition-colors">{t('header.expertise')}</a>

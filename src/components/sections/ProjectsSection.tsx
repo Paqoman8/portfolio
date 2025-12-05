@@ -17,6 +17,22 @@ interface ProjectMetadata {
 const projectMetadata: ProjectMetadata[] = [
     {
         stack: [
+            "Laravel",
+            "PHP",
+            "MySQL",
+            "Blade Templates",
+            "Eloquent ORM"
+        ],
+
+        image: "images/freeads.png",
+
+        links: {
+            // demo: "#",
+            github: "https://github.com/Paqoman8/free_ads"
+        }
+    },
+    {
+        stack: [
             "React",
             "Node.js",
             "Express",
@@ -70,7 +86,7 @@ export const ProjectsSection = () => {
                         <h2 className="text-3xl font-bold tracking-tight text-text-high sm:text-4xl font-display">
                             {t('projects.title')}
                         </h2>
-                        <p className="mt-4 text-lg text-text-low max-w-xl">
+                        <p className="mt-4 text-lg text-text-low max-w-2xl">
                             {t('projects.subtitle')}
                         </p>
                     </div>

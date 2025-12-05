@@ -55,6 +55,19 @@ export const translations = {
             source_code: "Source Code",
             items: [
                 {
+                    title: "Freeads (Epitech Academic Project)",
+                    category: "Online Classified Ads Platform",
+                    description: "A fully featured classified ads platform built with Laravel, including authentication, ad management, advanced filtering, and a user interface inspired by professional listing services.",
+
+                    points: [
+                        "Full MVC architecture using Laravel Eloquent ORM",
+                        "Authentication system: signup, login, and email verification",
+                        "Complete ads CRUD: creation, editing, deletion, and detailed display",
+                        "Advanced filtering system: category, location, price range, item condition",
+                        "Basic SEO and structural optimization"
+                    ]
+                },
+                {
                     title: "Nucleus (Epitech Academic Project)",
                     category: "Full Stack Dashboard Platform",
                     description: "Netvibes-like platform integrating multiple widgets connected to external services via API.",
@@ -177,6 +190,19 @@ export const translations = {
             source_code: "Code Source",
             items: [
                 {
+                    title: "Freeads (Projet académique Epitech)",
+                    category: "Plateforme d’annonces en ligne",
+                    description: "Site complet de petites annonces développé avec Laravel, incluant authentification, gestion des annonces, filtrage avancé et interface utilisateur inspirée des plateformes professionnelles.",
+
+                    points: [
+                        "Architecture MVC complète via Laravel Eloquent ORM",
+                        "Système d'authentification : inscription, connexion et vérification email",
+                        "CRUD complet des annonces : création, édition, suppression et affichage détaillé",
+                        "Système de filtres avancés : catégorie, localisation, fourchette de prix, état du produit",
+                        "SEO de base + optimisation structurelle",
+                    ]
+                },
+                {
                     title: "Nucleus (Projet académique Epitech)",
                     category: "Plateforme Dashboard Full Stack",
                     description: "Plateforme type Netvibes intégrant plusieurs widgets connectés à des services externes via API.",
@@ -215,7 +241,7 @@ export const translations = {
             ]
         },
         approach: {
-            title: "Ingénierie avec Sens",
+            title: "Ingénierie logique",
             subtitle: "Ma philosophie de développement repose sur trois piliers : prévisibilité, performance et précision. Je construis des logiciels qui durent.",
             items: [
                 {

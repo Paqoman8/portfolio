@@ -13,6 +13,18 @@ const icons = [
     Zap,
 ];
 
+const technologies = [
+    { name: "React", icon: "⚛️" },
+    { name: "Next.js", icon: "▲" },
+    { name: "TypeScript", icon: "TS" },
+    { name: "Node.js", icon: "🟢" },
+    { name: "Tailwind", icon: "🌊" },
+    { name: "MongoDB", icon: "🍃" },
+    { name: "PostgreSQL", icon: "🐘" },
+    { name: "Docker", icon: "🐳" },
+    { name: "Git", icon: "📦" },
+];
+
 export const ExpertiseSection = () => {
     const { t } = useTranslation();
     const expertises = t('expertise.items');
@@ -29,7 +41,7 @@ export const ExpertiseSection = () => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 mb-20">
                     {expertises.map((item: any, index: number) => {
                         const Icon = icons[index];
                         return (
@@ -48,6 +60,25 @@ export const ExpertiseSection = () => {
                         );
                     })}
                 </div>
+
+                {/* Tech Stack Visuals */}
+                {/* <div className="border-t border-white/5 pt-16">
+                    <h3 className="text-2xl font-bold text-center text-text-high mb-10 font-display">
+                        Tech Stack
+                    </h3>
+                    <div className="flex flex-wrap justify-center gap-8 md:gap-12">
+                        {technologies.map((tech) => (
+                            <div key={tech.name} className="flex flex-col items-center gap-3 group">
+                                <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-white/5 text-2xl shadow-inner ring-1 ring-white/10 transition-all group-hover:scale-110 group-hover:bg-indigo-500/10 group-hover:ring-indigo-500/30">
+                                    {tech.icon}
+                                </div>
+                                <span className="text-sm font-medium text-text-low group-hover:text-indigo-400 transition-colors">
+                                    {tech.name}
+                                </span>
+                            </div>
+                        ))}
+                    </div>
+                </div> */}
             </div>
         </section>
     );
