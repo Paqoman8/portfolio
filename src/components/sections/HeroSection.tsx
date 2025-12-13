@@ -1,7 +1,12 @@
+"use client";
+
 import React from 'react';
 import { ArrowRight, Mail } from 'lucide-react';
+import { useTranslation } from '@/hooks/useTranslation';
 
 export const HeroSection = () => {
+    const { t } = useTranslation();
+
     return (
         <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-void px-4 text-center sm:px-6 lg:px-8 pt-20">
 
@@ -19,34 +24,33 @@ export const HeroSection = () => {
                         <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
                         <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
                     </span>
-                    Available for new opportunities
+                    {t('hero.availability')}
                 </div>
 
                 {/* Main Headline */}
                 <h1 className="font-display text-5xl font-bold tracking-tight text-text-high sm:text-6xl md:text-7xl">
                     {/* Building <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-500">Scalable SaaS</span> <br className="hidden md:block" /> */}
-                    Building Scalable
+                    {t('hero.title_prefix')}
                     <br className="hidden md:block" />
-                    <span className="text-transparent bg-clip-text bg-linear-to-r from-indigo-400 to-cyan-500">Digital Products</span> <br className="hidden md:block" />
-                    & Future-Ready Architectures.
+                    <span className="text-transparent bg-clip-text bg-linear-to-r from-indigo-400 to-cyan-500"> {t('hero.title_highlight')}</span> <br className="hidden md:block" />
+                    {t('hero.title_suffix')}
                 </h1>
 
                 {/* Subheadline */}
                 <p className="mx-auto max-w-2xl text-lg text-text-low md:text-xl leading-relaxed">
-                    {/* Senior Full Stack Engineer. I bridge the gap between complex backend logic and fluid frontend experiences. Specialized in Next.js, NestJS, and Cloud Native solutions. */}
-                    Full Stack Engineer specializing in complex web and mobile ecosystems. I design and build high-performance SaaS platforms, robust APIs, and modern interfaces using Next.js, NestJS, Node, and React Native.
+                    {t('hero.description')}
                 </p>
 
                 {/* CTA Group */}
                 <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
                     <a href="#projects" className="group relative inline-flex h-12 items-center justify-center gap-2 overflow-hidden rounded-md bg-text-high px-8 font-medium text-void transition-all hover:bg-white/90">
-                        <span>View Selected Work</span>
+                        <span>{t('hero.view_work')}</span>
                         <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                     </a>
 
                     <a href="#contact" className="inline-flex h-12 items-center justify-center gap-2 rounded-md border border-white/10 px-8 font-medium text-text-high transition-colors hover:bg-white/5">
                         <Mail className="h-4 w-4" />
-                        <span>Contact Me</span>
+                        <span>{t('hero.contact_me')}</span>
                     </a>
                 </div>
 
