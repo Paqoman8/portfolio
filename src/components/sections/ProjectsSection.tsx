@@ -17,6 +17,23 @@ interface ProjectMetadata {
 const projectMetadata: ProjectMetadata[] = [
     {
         stack: [
+            "WordPress",
+            "PHP",
+            "JavaScript",
+            "React",
+            "WordPress REST API",
+            "Google Gemini API"
+        ],
+
+        image: "images/wp-ai-assistant.png",
+
+        links: {
+            // demo: "#",
+            github: "https://github.com/Paqoman8/wp-ai-assistant"
+        }
+    },
+    {
+        stack: [
             "Laravel",
             "PHP",
             "MySQL",

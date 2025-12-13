@@ -55,6 +55,20 @@ export const translations = {
             source_code: "Source Code",
             items: [
                 {
+                    title: "WP AI Assistant",
+                    category: "WordPress Plugin / AI-Powered SEO Tool",
+                    description: "A WordPress plugin natively integrated into the Gutenberg editor that automatically generates SEO-optimized meta descriptions using Google Gemini AI.",
+
+                    points: [
+                        "Native Gutenberg integration via PluginSidebar (React)",
+                        "Secure server-side AI calls with API key never exposed to JavaScript",
+                        "Custom REST endpoint with WordPress nonce-based authentication",
+                        "Prompt-engineered AI generation with strict output formatting",
+                        "Direct editor integration updating the post excerpt programmatically",
+                        "Admin settings page for secure API key management"
+                    ]
+                },
+                {
                     title: "Freeads (Epitech Academic Project)",
                     category: "Online Classified Ads Platform",
                     description: "A fully featured classified ads platform built with Laravel, including authentication, ad management, advanced filtering, and a user interface inspired by professional listing services.",
@@ -189,6 +203,20 @@ export const translations = {
             show_project: "Voir le projet",
             source_code: "Code Source",
             items: [
+                {
+                    title: "WP AI Assistant",
+                    category: "Plugin WordPress / Outil SEO basé sur l’IA",
+                    description: "Extension WordPress intégrée nativement à l’éditeur Gutenberg permettant de générer automatiquement des méta-descriptions SEO optimisées à l’aide de l’IA Google Gemini.",
+
+                    points: [
+                        "Intégration native à Gutenberg via PluginSidebar (React)",
+                        "Appels IA sécurisés côté serveur avec clé API jamais exposée au JavaScript",
+                        "Endpoint REST personnalisé avec authentification par nonce WordPress",
+                        "Génération IA pilotée par un prompt strict garantissant un format SEO conforme",
+                        "Mise à jour directe de l’extrait (excerpt) depuis l’éditeur",
+                        "Page d’administration dédiée pour la gestion sécurisée de la clé API",
+                    ]
+                },
                 {
                     title: "Freeads (Projet académique Epitech)",
                     category: "Plateforme d’annonces en ligne",
