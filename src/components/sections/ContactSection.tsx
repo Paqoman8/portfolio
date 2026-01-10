@@ -19,7 +19,7 @@ export const ContactSection = () => {
 
                 <div className="mt-12 flex flex-col items-center gap-6">
                     <a
-                        href="mailto:joel.houinsavi@epitech.eu"
+                        href="mailto:houinsavi.j@gmail.com"
                         className="group relative inline-flex h-14 items-center justify-center gap-3 overflow-hidden rounded-full bg-indigo-600 px-8 text-lg font-medium text-white transition-all hover:bg-indigo-500"
                     >
                         <Mail className="h-5 w-5" />
