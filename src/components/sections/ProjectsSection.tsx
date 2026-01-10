@@ -17,6 +17,21 @@ interface ProjectMetadata {
 const projectMetadata: ProjectMetadata[] = [
     {
         stack: [
+            "Laravel",
+            "Vue.js",
+            "REST API",
+            "MySQL"
+        ],
+
+        image: "images/trc.png",
+
+        links: {
+            demo: "https://hub.tekbot.io/",
+            // github: "https://github.com/Paqoman8/wp-ai-assistant"
+        }
+    },
+    {
+        stack: [
             "WordPress",
             "PHP",
             "JavaScript",
@@ -187,7 +202,7 @@ export const ProjectsSection = () => {
                                                 {
                                                     metadata.links?.demo && (
                                                         <a
-                                                            href={metadata.links?.demo}
+                                                            href={metadata.links?.demo} target="_blank"
                                                             className="flex items-center gap-2 text-sm font-medium text-text-high transition-colors hover:text-indigo-400"
                                                         >
                                                             <ExternalLink className="h-4 w-4" />

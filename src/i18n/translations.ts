@@ -55,6 +55,21 @@ export const translations = {
             source_code: "Source Code",
             items: [
                 {
+                    title: "Tekbot Robotics Challenge (TRC)",
+                    category: "Competition Management Platform / Full Stack",
+                    description: "A comprehensive platform designed to manage an inter-university robotics competition, combining an immersive front-office experience with a professional back-office, ticketing system, live scoring, and official results validation.",
+
+                    points: [
+                        "Full stack architecture built with Laravel and Vue.js, with a clear front-office / back-office separation",
+                        "Advanced multi-role management: admins, visitors, etc.",
+                        "Live scoring module with action timeline and state persistence",
+                        "Productivity-oriented back-office for matches, teams, universities, and users",
+                        "Integrated ticketing system with payment workflow and callbacks",
+                        "Public access to results, teams, universities, and match schedules",
+                        "Modular and scalable architecture designed for real-world event usage"
+                    ],
+                },
+                {
                     title: "WP AI Assistant",
                     category: "WordPress Plugin / AI-Powered SEO Tool",
                     description: "A WordPress plugin natively integrated into the Gutenberg editor that automatically generates SEO-optimized meta descriptions using Google Gemini AI.",
@@ -203,6 +218,21 @@ export const translations = {
             show_project: "Voir le projet",
             source_code: "Code Source",
             items: [
+                {
+                    title: "Tekbot Robotics Challenge (TRC)",
+                    category: "Plateforme de gestion de compétition / Full Stack",
+                    description: "Plateforme complète de gestion d’une compétition inter-universitaire, combinant front-office immersif, back-office professionnel, billetterie, scoring en direct et validation officielle des résultats.",
+
+                    points: [
+                        "Architecture full stack Laravel + Vue.js avec séparation front-office / back-office",
+                        "Gestion multi-rôles avancée : admin, visiteurs, etc.",
+                        "Module de scoring live avec timeline et sauvegarde d’état",
+                        "Back-office complet orienté productivité (matchs, équipes, universités, utilisateurs)",
+                        "Système de billetterie avec workflow de paiement et callbacks",
+                        "Consultation publique des résultats, équipes, universités et matchs",
+                        "Architecture modulaire et scalable pensée pour un usage événementiel réel"
+                    ],
+                },
                 {
                     title: "WP AI Assistant",
                     category: "Plugin WordPress / Outil SEO basé sur l’IA",
