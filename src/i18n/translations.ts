@@ -55,6 +55,20 @@ export const translations = {
             source_code: "Source Code",
             items: [
                 {
+                    title: "QRCards.me",
+                    category: "SaaS Link-in-Bio / Full Stack",
+                    description: "Phygital SaaS platform for creating premium digital business cards, featuring an interactive editor, print-ready exports, and an analytics dashboard.",
+
+                    points: [
+                        "Modern stack: Next.js 16, Supabase, Prisma, and Tailwind CSS",
+                        "Real-time editor with split-screen preview and drag-and-drop",
+                        "High-resolution export engine (PNG/PDF 300 dpi) via Satori",
+                        "Privacy-first analytics dashboard (scans, views, geolocation)",
+                        "Integrated B2C/B2B monetization via Stripe",
+                        "Premium interface with 3D animations via Framer Motion"
+                    ],
+                },
+                {
                     title: "Tekbot Robotics Challenge (TRC)",
                     category: "Competition Management Platform / Full Stack",
                     description: "A comprehensive platform designed to manage an inter-university robotics competition, combining an immersive front-office experience with a professional back-office, ticketing system, live scoring, and official results validation.",
@@ -122,7 +136,7 @@ export const translations = {
                     ]
                 },
                 {
-                    title: "Paqo.net (Personal Project)",
+                    title: "Paqo.net",
                     category: "Personal Platform (Blog • E-commerce • Portfolio)",
                     description: "100% native web platform combining blog, shop, and portfolio. Developed in HTML, CSS, JS, and PHP, with a custom backend architecture.",
                     points: [
@@ -219,6 +233,20 @@ export const translations = {
             source_code: "Code Source",
             items: [
                 {
+                    title: "QRCards.me",
+                    category: "SaaS Link-in-Bio / Full Stack",
+                    description: "Plateforme SaaS phygitale de création de cartes de visite digitales premium, incluant un éditeur interactif, des exports pour impression et un dashboard analytique.",
+
+                    points: [
+                        "Stack moderne : Next.js 16, Supabase, Prisma et Tailwind CSS",
+                        "Éditeur temps réel avec prévisualisation 'split-screen' et drag-and-drop",
+                        "Moteur d'export haute résolution (PNG/PDF 300 dpi) via Satori",
+                        "Dashboard analytique 'privacy-first' (scans, vues, géolocalisation)",
+                        "Monétisation B2C/B2B intégrée via Stripe",
+                        "Interface premium avec animations 3D via Framer Motion"
+                    ],
+                },
+                {
                     title: "Tekbot Robotics Challenge (TRC)",
                     category: "Plateforme de gestion de compétition / Full Stack",
                     description: "Plateforme complète de gestion d’une compétition inter-universitaire, combinant front-office immersif, back-office professionnel, billetterie, scoring en direct et validation officielle des résultats.",
@@ -286,7 +314,7 @@ export const translations = {
                     ]
                 },
                 {
-                    title: "Paqo.net (Projet personnel)",
+                    title: "Paqo.net",
                     category: "Plateforme Personnelle (Blog • E-commerce • Portfolio)",
                     description: "Plateforme web 100% native combinant blog, boutique et portfolio. Développée en HTML, CSS, JS et PHP, avec une architecture backend sur mesure.",
                     points: [
