@@ -17,6 +17,20 @@ interface ProjectMetadata {
 const projectMetadata: ProjectMetadata[] = [
     {
         stack: [
+            "React Native",
+            "Expo",
+            "SQLite",
+            "iOS",
+            "Android"
+        ],
+        image: "images/rewind.png",
+        links: {
+            demo: "https://apps.apple.com/us/app/rewind/id6767027553",
+            // github: "#"
+        }
+    },
+    {
+        stack: [
             "Next.js 16",
             "TypeScript",
             "Tailwind CSS",

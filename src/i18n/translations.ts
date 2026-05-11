@@ -55,6 +55,20 @@ export const translations = {
             source_code: "Source Code",
             items: [
                 {
+                    title: "REWIND",
+                    category: "Mobile App / React Native",
+                    description: "100% offline iOS app that turns your forgotten photo library into an emotional rediscovery experience, using a TikTok-style vertical scroll fed by a randomized local media engine.",
+                    points: [
+                        "Random media indexing engine with local SQLite storage (up to 50,000 media)",
+                        "Vertical swipe navigation (up/down) with session history",
+                        "In-app favorites system with double-tap or heart button",
+                        "Dusting Mode (PRO): swipe left to trash unwanted media via iOS native API",
+                        // "Native iOS share sheet integration",
+                        "OLED-ready minimalist design with haptic feedback",
+                        "Zero tracking, 100% private: no data leaves the device"
+                    ]
+                },
+                {
                     title: "QRCards.me",
                     category: "SaaS Link-in-Bio / Full Stack",
                     description: "Phygital SaaS platform for creating premium digital business cards, featuring an interactive editor, print-ready exports, and an analytics dashboard.",
@@ -232,6 +246,20 @@ export const translations = {
             show_project: "Voir le projet",
             source_code: "Code Source",
             items: [
+                {
+                    title: "REWIND",
+                    category: "Application Mobile / React Native",
+                    description: "Application mobile 100% offline qui transforme votre photothèque oubliée en une expérience émotionnelle active, via un défilement vertical aléatoire type TikTok alimenté exclusivement par vos médias locaux.",
+                    points: [
+                        "Moteur d'indexation aléatoire avec stockage SQLite local (jusqu'à 50 000 médias)",
+                        "Navigation verticale par swipe (haut/bas) avec historique de session",
+                        "Système de favoris intégré (double-clic ou bouton cœur)",
+                        "Mode Dépoussiérage (PRO) : swipe gauche pour envoyer vers la corbeille via l'API iOS native",
+                        // "Partage natif via la feuille de partage iOS",
+                        "Design minimaliste OLED-ready avec retour haptique",
+                        "Zéro tracking, 100% privé : aucune donnée ne quitte l'appareil"
+                    ]
+                },
                 {
                     title: "QRCards.me",
                     category: "SaaS Link-in-Bio / Full Stack",
