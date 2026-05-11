@@ -55,6 +55,34 @@ export const translations = {
             source_code: "Source Code",
             items: [
                 {
+                    title: "REWIND",
+                    category: "Mobile App / React Native",
+                    description: "100% offline iOS app that turns your forgotten photo library into an emotional rediscovery experience, using a TikTok-style vertical scroll fed by a randomized local media engine.",
+                    points: [
+                        "Random media indexing engine with local SQLite storage (up to 50,000 media)",
+                        "Vertical swipe navigation (up/down) with session history",
+                        "In-app favorites system with double-tap or heart button",
+                        "Dusting Mode (PRO): swipe left to trash unwanted media via iOS native API",
+                        // "Native iOS share sheet integration",
+                        "OLED-ready minimalist design with haptic feedback",
+                        "Zero tracking, 100% private: no data leaves the device"
+                    ]
+                },
+                {
+                    title: "QRCards.me",
+                    category: "SaaS Link-in-Bio / Full Stack",
+                    description: "Phygital SaaS platform for creating premium digital business cards, featuring an interactive editor, print-ready exports, and an analytics dashboard.",
+
+                    points: [
+                        "Modern stack: Next.js 16, Supabase, Prisma, and Tailwind CSS",
+                        "Real-time editor with split-screen preview and drag-and-drop",
+                        "High-resolution export engine (PNG/PDF 300 dpi) via Satori",
+                        "Privacy-first analytics dashboard (scans, views, geolocation)",
+                        "Integrated B2C/B2B monetization via Stripe",
+                        "Premium interface with 3D animations via Framer Motion"
+                    ],
+                },
+                {
                     title: "Tekbot Robotics Challenge (TRC)",
                     category: "Competition Management Platform / Full Stack",
                     description: "A comprehensive platform designed to manage an inter-university robotics competition, combining an immersive front-office experience with a professional back-office, ticketing system, live scoring, and official results validation.",
@@ -122,7 +150,7 @@ export const translations = {
                     ]
                 },
                 {
-                    title: "Paqo.net (Personal Project)",
+                    title: "Paqo.net",
                     category: "Personal Platform (Blog • E-commerce • Portfolio)",
                     description: "100% native web platform combining blog, shop, and portfolio. Developed in HTML, CSS, JS, and PHP, with a custom backend architecture.",
                     points: [
@@ -219,6 +247,34 @@ export const translations = {
             source_code: "Code Source",
             items: [
                 {
+                    title: "REWIND",
+                    category: "Application Mobile / React Native",
+                    description: "Application mobile 100% offline qui transforme votre photothèque oubliée en une expérience émotionnelle active, via un défilement vertical aléatoire type TikTok alimenté exclusivement par vos médias locaux.",
+                    points: [
+                        "Moteur d'indexation aléatoire avec stockage SQLite local (jusqu'à 50 000 médias)",
+                        "Navigation verticale par swipe (haut/bas) avec historique de session",
+                        "Système de favoris intégré (double-clic ou bouton cœur)",
+                        "Mode Dépoussiérage (PRO) : swipe gauche pour envoyer vers la corbeille via l'API iOS native",
+                        // "Partage natif via la feuille de partage iOS",
+                        "Design minimaliste OLED-ready avec retour haptique",
+                        "Zéro tracking, 100% privé : aucune donnée ne quitte l'appareil"
+                    ]
+                },
+                {
+                    title: "QRCards.me",
+                    category: "SaaS Link-in-Bio / Full Stack",
+                    description: "Plateforme SaaS phygitale de création de cartes de visite digitales premium, incluant un éditeur interactif, des exports pour impression et un dashboard analytique.",
+
+                    points: [
+                        "Stack moderne : Next.js 16, Supabase, Prisma et Tailwind CSS",
+                        "Éditeur temps réel avec prévisualisation 'split-screen' et drag-and-drop",
+                        "Moteur d'export haute résolution (PNG/PDF 300 dpi) via Satori",
+                        "Dashboard analytique 'privacy-first' (scans, vues, géolocalisation)",
+                        "Monétisation B2C/B2B intégrée via Stripe",
+                        "Interface premium avec animations 3D via Framer Motion"
+                    ],
+                },
+                {
                     title: "Tekbot Robotics Challenge (TRC)",
                     category: "Plateforme de gestion de compétition / Full Stack",
                     description: "Plateforme complète de gestion d’une compétition inter-universitaire, combinant front-office immersif, back-office professionnel, billetterie, scoring en direct et validation officielle des résultats.",
@@ -286,7 +342,7 @@ export const translations = {
                     ]
                 },
                 {
-                    title: "Paqo.net (Projet personnel)",
+                    title: "Paqo.net",
                     category: "Plateforme Personnelle (Blog • E-commerce • Portfolio)",
                     description: "Plateforme web 100% native combinant blog, boutique et portfolio. Développée en HTML, CSS, JS et PHP, avec une architecture backend sur mesure.",
                     points: [

@@ -17,6 +17,38 @@ interface ProjectMetadata {
 const projectMetadata: ProjectMetadata[] = [
     {
         stack: [
+            "React Native",
+            "Expo",
+            "SQLite",
+            "iOS",
+            "Android"
+        ],
+        image: "images/rewind.png",
+        links: {
+            demo: "https://apps.apple.com/us/app/rewind/id6767027553",
+            // github: "#"
+        }
+    },
+    {
+        stack: [
+            "Next.js 16",
+            "TypeScript",
+            "Tailwind CSS",
+            "Supabase",
+            "Prisma",
+            "Framer Motion",
+            "Stripe"
+        ],
+
+        image: "images/qrcards.png", // Pense à mettre à jour le nom du fichier image
+
+        links: {
+            demo: "https://qrcards.me/",
+            // github: "https://github.com/ton-repo/qrcards" // Décommente si ton code est open source ou public
+        }
+    },
+    {
+        stack: [
             "Laravel",
             "Vue.js",
             "REST API",
