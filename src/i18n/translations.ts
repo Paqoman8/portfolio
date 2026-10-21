@@ -55,6 +55,19 @@ export const translations = {
             source_code: "Source Code",
             items: [
                 {
+                    title: "Stock Manager",
+                    category: "Web App / Stock Management",
+                    description: "Web app that lets retailers with several stores know what they have in stock at any time, from supplier orders to sales at the checkout.",
+                    points: [
+                        "Tracks every purchase: supplier order, delivery received, invoice paid",
+                        "Stock counted by carton, pack or unit, with easy conversion between them",
+                        "Built-in safeguards against stock errors, such as selling more than you have",
+                        "Full history of who did what, and access tailored to each employee's role",
+                        "One platform for several businesses, each keeping its own data private",
+                        "Built in collaboration with Leroi KAKATSI"
+                    ]
+                },
+                {
                     title: "REWIND",
                     category: "Mobile App / React Native",
                     description: "100% offline iOS app that turns your forgotten photo library into an emotional rediscovery experience, using a TikTok-style vertical scroll fed by a randomized local media engine.",
@@ -246,6 +259,19 @@ export const translations = {
             show_project: "Voir le projet",
             source_code: "Code Source",
             items: [
+                {
+                    title: "Stock Manager",
+                    category: "Application Web / Gestion de stock",
+                    description: "Application web qui permet aux commerces à plusieurs magasins de savoir à tout moment ce qu'ils ont en stock, de la commande fournisseur à la vente en caisse.",
+                    points: [
+                        "Suivi de chaque achat : commande au fournisseur, livraison reçue, facture réglée",
+                        "Stock compté par carton, paquet ou unité, avec passage facile de l'un à l'autre",
+                        "Garde-fous contre les erreurs de stock, comme vendre plus que ce que l'on a",
+                        "Historique complet de qui a fait quoi, et accès adapté au rôle de chaque employé",
+                        "Une seule plateforme pour plusieurs entreprises, chacune avec ses données privées",
+                        "Réalisé en collaboration avec Leroi KAKATSI"
+                    ]
+                },
                 {
                     title: "REWIND",
                     category: "Application Mobile / React Native",

@@ -17,6 +17,22 @@ interface ProjectMetadata {
 const projectMetadata: ProjectMetadata[] = [
     {
         stack: [
+            "Next.js 16",
+            "Express 5",
+            "TypeScript",
+            "PostgreSQL",
+            "Prisma",
+            "Tailwind CSS",
+            "Docker"
+        ],
+        image: "images/stock.png",
+        links: {
+            // demo: "https://stock-manager-frontend-azure.vercel.app/",
+            github: "https://github.com/Paqoman8/Project_Stock_Manager"
+        }
+    },
+    {
+        stack: [
             "React Native",
             "Expo",
             "SQLite",
