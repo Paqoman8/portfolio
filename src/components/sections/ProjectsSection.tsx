@@ -145,10 +145,10 @@ const projectMetadata: ProjectMetadata[] = [
             "SQL"
         ],
         image: "images/paqo.png",
-        links: {
-            demo: "https://www.paqo.net",
-            // github: "#"
-        }
+        // links: {
+        //     demo: "https://www.paqo.net",
+        //     github: "#"
+        // }
     },
 ];
 

@@ -28,7 +28,7 @@ export const ContactSection = () => {
                     </a>
 
                     <p className="text-sm text-zinc-500">
-                        {t('contact.find_me')} <a href="https://www.linkedin.com/in/joel-houinsavi/" className="text-zinc-400 hover:text-white underline underline-offset-4">LinkedIn</a> | <a href="https://github.com/Paqoman8" className="text-zinc-400 hover:text-white underline underline-offset-4">GitHub</a> {t('contact.and')} <a href="https://paqo.net" className="text-zinc-400 hover:text-white underline underline-offset-4">{t('contact.website')}</a>
+                        {t('contact.find_me')} <a href="https://www.linkedin.com/in/joel-houinsavi/" className="text-zinc-400 hover:text-white underline underline-offset-4">LinkedIn</a> | <a href="https://github.com/Paqoman8" className="text-zinc-400 hover:text-white underline underline-offset-4">GitHub</a> {t('contact.and')} <a href="https://www.qrcards.me/joelhouins" className="text-zinc-400 hover:text-white underline underline-offset-4">{t('contact.website')}</a>
                     </p>
                 </div>
             </div>

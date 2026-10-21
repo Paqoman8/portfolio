@@ -10,7 +10,8 @@ export const Footer = () => {
                 <div className="mt-4 flex justify-center gap-6">
                     <a href="https://github.com/Paqoman8" className="text-zinc-600 hover:text-zinc-400 text-sm">GitHub</a>
                     <a href="https://www.linkedin.com/in/joel-houinsavi/" className="text-zinc-600 hover:text-zinc-400 text-sm">LinkedIn</a>
-                    <a href="https://paqo.net" className="text-zinc-600 hover:text-zinc-400 text-sm">Paqo.net</a>
+                    <a href="https://www.qrcards.me/joelhouins" className="text-zinc-600 hover:text-zinc-400 text-sm">QRCards</a>
+                    {/* <a href="https://paqo.net" className="text-zinc-600 hover:text-zinc-400 text-sm">Paqo.net</a> */}
                 </div>
             </div>
         </footer>
